@@ -1,4 +1,30 @@
 Spring Frameworks
 Spring Boot with Microservices Architecture
 JPA using Hibernate.
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+SPRING INTRODUCTION:-
+=====================
+-->Spring Framework is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
+-->Spring framework was intially written by "Red Jhonson" in the year june 2003.
+-->Current Spring version is 6.2.0.
+
+IOC :- Instead of Developer creating the Object, Spring Container creates the Object is called as Inversion of Control.
+
+why we need to learn spring..?
+===============================
+-->Spring makes programming java quciker, easier and safier 
+
+what are the modules we are going to learn in spring...?
+=========================================================
+-->Spring Core
+-->Spring JDBC
+-->Spring Web
+-->Spring AOP
+
+
+Dependency Injection:-
+----------------------
+
+
+
+
