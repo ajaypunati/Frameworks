@@ -21,13 +21,5 @@ what are the modules we are going to learn in spring...?
 
 IOC :- Instead of Developer creating the Object, Spring Container creates the Object is called as Inversion of Control.
 
-Dependency Injection:-
-----------------------
-
-
-Setter Injection vs Constructor Injection:-
--------------------------------------------
-
-
 
 
