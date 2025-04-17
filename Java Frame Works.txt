@@ -8,18 +8,22 @@ SPRING INTRODUCTION:-
 -->Spring framework was intially written by "Rod Jhonson" in the year june 2003.
 -->Current Spring version is 6.2.0.
 
-why we need to learn spring..?
+WHY WE NEED TO LEARN SPRING..?
 ===============================
+-->Spring is the most popular application development framework for enterprise java.
+-->Spring is lightweight when it comes to size and transparency.
+-->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
+
+BENEFITS OF USING SPRING FRAMEWORK:-
+=====================================
+-->POJO based.
+-->Modular
+-->lightweight
+-->Testability
+-->Transaction Management
 
 
-what are the modules we are going to learn in spring...?
-=========================================================
--->Spring Core
--->Spring JDBC
--->Spring Web
--->Spring AOP
-
-IOC :- Instead of Developer creating the Object, Spring Container creates the Object is called as Inversion of Control.
-
+DEPENDENCY INJECTION:-
+=======================
 
 
