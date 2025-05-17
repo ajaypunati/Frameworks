@@ -14,32 +14,6 @@ WHY WE NEED TO LEARN SPRING..?
 -->Spring is lightweight when it comes to size and transparency.
 -->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
 
-BENEFITS OF USING SPRING FRAMEWORK:-
-=====================================
--->POJO based.
--->Modular
--->lightweight
--->Testability
--->Transaction Management
-
-
-DEPENDENCY INJECTION:-
-=======================
-
-
-
-
-
-
-
-
-
-SPRING BOOT INTRODUCTION:-
-===========================
--->Spring Boot = Advanced Spring or extension of Spring
--->Spring Boot is an open source java based framework.
--->By using Spring Boot we can develop micro service Applications.
--->Micro Service is an Architecture to create Spring Boot Applications.
 
 
 
