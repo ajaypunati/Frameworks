@@ -4,17 +4,27 @@ JPA using Hibernate.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPRING INTRODUCTION:-
 =====================
+
 WHAT IS SPRING..?
 =======================
--->Spring Framework is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
--->Spring framework was intially written by "Rod Jhonson" in the year june 2003.
+-->Spring is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
+-->Spring  was intially written by "Rod Jhonson" in the year june 2003.
 -->Current Spring version is 6.2.0.
+->Spring offers features like,
+   -->dependency Injection,
+   -->Aspect Oriented Programming
+   -->Transaction Management
+-->Spring Key Modules Include:
+     -->Spring MVC for Web Application Development
+     -->Spring Boot for rapid Application Development
+
 
 WHY WE NEED TO LEARN SPRING..?
 ===============================
 -->Spring is the most popular application development framework for enterprise java.
--->Spring is lightweight when it comes to size and transparency.
 -->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
+-->Spring is light weight when it comes to size and transparency.
+
 
 
 
