@@ -28,7 +28,9 @@ WHY WE NEED TO LEARN SPRING..?
 
 SPRING CORE:-
 --------------
--->
+-->Spring Core is a Foundational Module of Spring Framework providing Essential Functionalities such as Inversion of Control(IOC) and Dependency Injection(DI).
+
+
 
 
 
