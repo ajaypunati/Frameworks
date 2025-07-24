@@ -31,7 +31,17 @@ SPRING CORE:-
 -->Spring Core is a Foundational Module of Spring Framework providing Essential Functionalities such as Inversion of Control(IOC) and Dependency Injection(DI).
 
 
+INVERSION OF CONTROL(IOC):-
+--------------------------
+-->A Design Principle where the control of object creation and dependencies is transferred to a container rather than being managed directly by the Application
+  code.
 
+DEPENDENCY INJECTION(DI):-
+--------------------------
+-->A Technique where the Dependencies of an object are Injected by the IOC container, promoting loose copuling and Modualrity.
+
+BEANS:-
+------
 
 
 
