@@ -41,7 +41,13 @@ DEPENDENCY INJECTION(DI):-
 -->A Technique where the Dependencies of an object are Injected by the IOC container, promoting loose copuling and Modualrity.
 
 BEANS:-
-------
+-------
+-->Beans are nothing but Objects Managed by the Spring Container.
+-->They are Configured through XML, Annotations or java code.
+
+ApplicationContext:-
+---------------------
+-->It is an Interface Representing the Spring IOC Container, responsible for Instatiating, configuring and Managing Beans.
 
 
 
