@@ -24,7 +24,8 @@ WHY WE NEED TO LEARN SPRING..?
 -->Spring is the most popular application development framework for enterprise java.
 -->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
 -->Spring is light weight when it comes to size and transparency.
-
+-->Any IT Application can be developed by using Spring and Spring boot.
+-->It makes Developer life easier.
 
 SPRING CORE:-
 --------------
@@ -49,5 +50,8 @@ ApplicationContext:-
 ---------------------
 -->It is an Interface Representing the Spring IOC Container, responsible for Instatiating, configuring and Managing Beans.
 
+SPRING CORE MODULES:-
+=====================
+-->The 
 
 
