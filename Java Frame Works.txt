@@ -52,6 +52,11 @@ ApplicationContext:-
 
 SPRING CORE MODULES:-
 =====================
--->The 
+-->The spring core consists of several modules they are:
+ 1)Core :- Provides fundamental functionalities and base classes.
+ 2)Beans :- Handles bean definition, creation and management.
+ 3)Context :- Offering an Application Context for managing beans in a more enterprise friendly way.
+
+
 
 
