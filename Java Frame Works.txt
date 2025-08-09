@@ -56,6 +56,10 @@ SPRING CORE MODULES:-
  1)Core :- Provides fundamental functionalities and base classes.
  2)Beans :- Handles bean definition, creation and management.
  3)Context :- Offering an Application Context for managing beans in a more enterprise friendly way.
+ 4)Expression Language(SpEL):- A Powerful Expression Language used for querying and manipulating objects at run time.
+
+
+
 
 
 
