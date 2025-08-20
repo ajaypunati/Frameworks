@@ -40,6 +40,8 @@ INVERSION OF CONTROL(IOC):-
 DEPENDENCY INJECTION(DI):-
 --------------------------
 -->A Technique where the Dependencies of an object are Injected by the IOC container, promoting loose copuling and Modualrity.
+-->Dependency Injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods.
+-->Dependency Injection is a heart of Spring framework.
 
 BEANS:-
 -------
@@ -57,6 +59,7 @@ SPRING CORE MODULES:-
  2)Beans :- Handles bean definition, creation and management.
  3)Context :- Offering an Application Context for managing beans in a more enterprise friendly way.
  4)Expression Language(SpEL):- A Powerful Expression Language used for querying and manipulating objects at run time.
+
 
 
 
