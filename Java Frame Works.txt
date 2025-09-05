@@ -61,6 +61,11 @@ SPRING CORE MODULES:-
  4)Expression Language(SpEL):- A Powerful Expression Language used for querying and manipulating objects at run time.
 
 
+SPRING BEAN LIFE CYCLE:-
+========================
+
+
+
 
 
 
