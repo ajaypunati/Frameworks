@@ -63,6 +63,15 @@ SPRING CORE MODULES:-
 
 SPRING BEAN LIFE CYCLE:-
 ========================
+-->We have six phases in Spring bean life cycle they are:-
+    -->Instantiation
+    -->Population of properties
+    -->Aware Interfaces.
+    -->Initialization
+    -->Ready for use
+    -->Destruction
+
+
 
 
 
