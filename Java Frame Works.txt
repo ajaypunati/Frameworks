@@ -71,6 +71,9 @@ SPRING BEAN LIFE CYCLE:-
     -->Ready for use
     -->Destruction
 
+ 1)Instantiation:- 
+ ------------------
+  -->
 
 
 
