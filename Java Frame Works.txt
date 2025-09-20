@@ -73,7 +73,32 @@ SPRING BEAN LIFE CYCLE:-
 
  1)Instantiation:- 
  ------------------
-  
+ -->The Spring Container Creates an Instance of the bean using it's Constructor.
+
+2)Population of Properties:-
+----------------------------
+-->Spring injects dependencies and set Properties of the bean using setter injection, constructor injection or filed injection.
+
+3)Aware Interfaces:-
+--------------------
+-->If the bean implements spring's Aware Interfaces(BeanNameAware, BeanFactoryAware, ApplicationContextAware),then spring invokes corresponding call back methods.
+
+4)Initialization:-
+-------------------
+-->If a custom Initialization method is configured(via @PostConstruct or init-method attribute in XML configuration), Spring calls the Specified Method.
+
+5)Read for use:-
+------------------
+-->The  bean is completely or fully initialized and available for use by the Applicaton.
+
+6)Destruction:-
+---------------
+-->If a customized Destruction method is configured(via @PreDestroy annotation or destroy-method attribute in XML configuration), spring calls the specified method.
+
+
+SPRING BEAN SCOPES:-
+====================
+
 
 
 
