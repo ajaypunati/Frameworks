@@ -98,6 +98,18 @@ SPRING BEAN LIFE CYCLE:-
 
 SPRING BEAN SCOPES:-
 ====================
+-->Spring bean scopes define the lifecycle and visibility of a bean within the spring  Container. There are five main scopes they are:
+  1)SingleTon:- Only one Instance of the bean is created per Spring IOC Container. This is the default Scope.
+  2)Prototype:- A new Instance of the bean is created every time it is requested.
+  3)Request:- A new instance of the bean is created for each HTTP Request. This scope is only valid in the context of a web-aware Spring ApplicationContext.
+  4)Session:- A new instance of the bean is created for each HTTP Session. This scope is only valid in the context of a web-aware Spring ApplicationContext.
+  5)Global-Session:- A new instance of the bean is created for each Global HTTP Session. This scope is only valid in the context of a web-aware Spring
+    ApplicationContext.
+
+
+Spring MVC and Architecture:-
+==============================
+
 
 
 
