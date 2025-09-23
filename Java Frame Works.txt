@@ -18,6 +18,10 @@ WHAT IS SPRING..?
      -->Spring MVC for Web Application Development
      -->Spring Boot for rapid Application Development
 
+WHAT IS FRAMEWORK..?
+======================
+-->Instead of Developing Everything from scratch , java is providing some jar files, those jar files are called as Framework.
+
 
 WHY WE NEED TO LEARN SPRING..?
 ===============================
@@ -109,6 +113,7 @@ SPRING BEAN SCOPES:-
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
