@@ -4,7 +4,6 @@ JPA using Hibernate.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPRING INTRODUCTION:-
 =====================
-
 WHAT IS SPRING..?
 =======================
 -->Spring is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
@@ -38,12 +37,13 @@ SPRING CORE:-
 
 
 SPRING INVERSION OF CONTROL(IOC):-
---------------------------
+--------------------------------
 -->A Design Principle where the control of object creation and dependencies is transferred to a container(i.e jar file)rather than being managed directly by the Application
   code.
 
 SPRING DEPENDENCY INJECTION(DI):-
---------------------------
+-------------------------------
+-->It is a flavour of IOC.
 -->A Technique where the Dependencies of an object are Injected by the IOC container, promoting loose copuling and Modualrity.
 -->Dependency Injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods.
 -->Dependency Injection is a heart of Spring framework.
@@ -114,6 +114,7 @@ SPRING BEAN SCOPES:-
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
