@@ -39,7 +39,7 @@ SPRING CORE:-
 
 SPRING INVERSION OF CONTROL(IOC):-
 --------------------------
--->A Design Principle where the control of object creation and dependencies is transferred to a container rather than being managed directly by the Application
+-->A Design Principle where the control of object creation and dependencies is transferred to a container(i.e jar file)rather than being managed directly by the Application
   code.
 
 SPRING DEPENDENCY INJECTION(DI):-
@@ -114,6 +114,7 @@ SPRING BEAN SCOPES:-
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
