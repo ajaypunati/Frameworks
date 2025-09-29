@@ -27,7 +27,7 @@ WHY WE NEED TO LEARN SPRING..?
 -->Spring is the most popular application development framework for enterprise java.
 -->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
 -->Spring is light weight when it comes to size and transparency.
--->Spring enables loose coupling, Testability and Maintainability.
+-->Spring enables loose coupling, easily testable and also helps in developing highly performing Applications.
 -->Any IT Application can be developed by using Spring and Spring boot.
 -->It makes Developer life easier.
 
@@ -115,6 +115,7 @@ SPRING BEAN SCOPES:-
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
