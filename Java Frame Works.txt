@@ -8,7 +8,7 @@ WHAT IS SPRING..?
 =======================
 -->Spring is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
 -->Spring  was intially written by "Rod Jhonson" in the year june 2003.
--->Current Spring version is 6.2.0.
+-->Current Spring version is 6.2.7.
 ->Spring offers features like,
    -->dependency Injection,
    -->Aspect Oriented Programming
@@ -115,6 +115,7 @@ SPRING BEAN SCOPES:-
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
