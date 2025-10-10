@@ -113,8 +113,19 @@ SPRING BEAN SCOPES:-
     ApplicationContext.
 
 
+WHY WE NEED MAVEN..?
+=====================
+-->Instead of, We downloading and installing jar files manually, the maven build tool will help in donwloading and installing jar files automatically in a
+   easiest way.
+
+WHAT IS MAVEN..?
+================
+-->Maven is an Automactic Build tool which helps in downloading and installing executable jar files automatically in a easiest way.
+  eg:-  (local Repo  <---- Pom.xml ---> Remote Repo)
+
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
