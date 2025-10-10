@@ -120,11 +120,12 @@ WHY WE NEED MAVEN..?
 
 WHAT IS MAVEN..?
 ================
--->Maven is an Automactic Build tool which helps in downloading and installing executable jar files automatically in a easiest way.
+-->Maven is an Automactic Build tool which helps in downloading and installing executable jar files automatically in a easiest way in to Local Repository.
   eg:-  (local Repo<----Pom.xml<--Remote Repo(Maven))
 
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
