@@ -124,8 +124,14 @@ WHAT IS MAVEN..?
    from Remote Repository.
   eg:-  (local Repo<----Pom.xml<--Remote Repo(Maven))
 
+
+SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION
+====================================================
+
+
 Spring MVC and Architecture:-
 ==============================
+
 
 
 
