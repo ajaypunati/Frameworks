@@ -129,11 +129,31 @@ SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION
 ====================================================
 ASPECT:-
 --------
-Injection Method:
+1)Injection Method:-
+  -->Dependencies are Provided through "Setter Methods".
+  -->Dependencies are Provided through the class "Constructor".
+
+2)Type of Dependency:-
+    -->Used for "Optional" Dependencies.
+    -->Used for "Mandatory" Dependencies.
+
+3)Object State:-
+    -->Creates "mutable" objects; Dependencies can be changed Later.
+    -->Creates "Immutable" Objects; since all dependencies are fixed at creation.
+
+4)Circular Dependencies:-
+     -->"Easier" to handle Circular Dependencies.
+     -->"Difficult to handle Circular Dependencies.
+
+5)Recommended Usage:-
+    -->Recommended by Spring as the default approach for core requried dependencies.
+    -->Recommended for optional dependencies.
       
 
 Spring MVC and Architecture:-
 ==============================
+-->
+
 
 
 
