@@ -146,13 +146,15 @@ ASPECT:-
      -->"Difficult to handle Circular Dependencies.
 
 5)Recommended Usage:-
-    -->Recommended by Spring as the default approach for core requried dependencies.
     -->Recommended for optional dependencies.
+    -->Recommended by Spring as the default approach for core requried dependencies.
+   
       
 
 Spring MVC and Architecture:-
 ==============================
 -->
+
 
 
 
