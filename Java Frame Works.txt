@@ -4,7 +4,7 @@ JPA using Hibernate.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 SPRING INTRODUCTION:-
 =====================
-WHAT IS SPRING..?
+"WHAT IS SPRING..?"
 =======================
 -->Spring is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
 -->Spring  was intially written by "Rod Jhonson" in the year june 2003.
@@ -17,13 +17,13 @@ WHAT IS SPRING..?
      -->Spring MVC for Web Application Development
      -->Spring Boot for rapid Application Development
 
-WHAT IS FRAMEWORK..?
+"WHAT IS FRAMEWORK..?"
 ======================
 -->Instead of Developing Everything from scratch , java is providing some jar files, those jar files are called as Framework.
 
 
-WHY WE NEED TO LEARN SPRING..?
-===============================
+"WHY WE NEED TO LEARN SPRING..?"
+================================
 -->Spring is the most popular application development framework for enterprise java.
 -->Spring framework aims to make J2EE developmenet easier to use and promotes good programming practices by enabling POJO-based programming models.
 -->Spring is light weight when it comes to size and transparency.
@@ -36,13 +36,13 @@ SPRING CORE:-
 -->Spring Core is a Foundational Module of Spring Framework providing Essential Functionalities such as Inversion of Control(IOC) and Dependency Injection(DI).
 
 
-SPRING INVERSION OF CONTROL(IOC):-
---------------------------------
+"SPRING INVERSION OF CONTROL(IOC):-"
+----------------------------------
 -->A Design Principle where the control of object creation and dependencies is transferred to a container(i.e jar file)rather than being managed directly by the Application
   code.
 
-SPRING DEPENDENCY INJECTION(DI):-
--------------------------------
+"SPRING DEPENDENCY INJECTION(DI):-"
+-----------------------------------
 -->It is a flavour of IOC.
 -->A Technique where the Dependencies of an object are Injected by the IOC container, promoting loose copuling and Modualrity.
 -->Dependency Injection helps in gluing the classes together and at the same time keeping them Independent.
@@ -58,8 +58,8 @@ ApplicationContext:-
 ---------------------
 -->It is an Interface Representing the Spring IOC Container, responsible for Instatiating, configuring and Managing Beans.
 
-SPRING CORE MODULES:-
-=====================
+"SPRING CORE MODULES:-"
+=======================
 -->The spring core consists of several modules they are:
  1)Core :- Provides fundamental functionalities and base classes.
  2)Beans :- Handles bean definition, creation and management.
@@ -67,8 +67,8 @@ SPRING CORE MODULES:-
  4)Expression Language(SpEL):- A Powerful Expression Language used for querying and manipulating objects at run time.
 
 
-SPRING BEAN LIFE CYCLE:-
-========================
+"SPRING BEAN LIFE CYCLE:-"
+==========================
 -->We have six phases in Spring bean life cycle they are:-
     -->Instantiation
     -->Population of properties
@@ -102,8 +102,8 @@ SPRING BEAN LIFE CYCLE:-
 -->If a customized Destruction method is configured(via @PreDestroy annotation or destroy-method attribute in XML configuration), spring calls the specified method.
 
 
-SPRING BEAN SCOPES:-
-====================
+"SPRING BEAN SCOPES:-"
+=====================
 -->Spring bean scopes define the lifecycle and visibility of a bean within the spring  Container. There are five main scopes they are:
   1)SingleTon:- Only one Instance of the bean is created per Spring IOC Container. This is the default Scope.
   2)Prototype:- A new Instance of the bean is created every time it is requested.
@@ -113,19 +113,19 @@ SPRING BEAN SCOPES:-
     ApplicationContext.
 
 
-WHY WE NEED MAVEN..?
+"WHY WE NEED MAVEN..?"
 =====================
 -->Instead of, We downloading and installing jar files manually, the maven build tool will help in donwloading and installing jar files automatically in a
    easiest way.
 
-WHAT IS MAVEN..?
+"WHAT IS MAVEN..?"
 ================
 -->Maven is an Automactic Build tool which helps in downloading and installing executable jar files automatically in a easiest way in to Local Repository
    from Remote Repository.
   eg:-  (local Repo<----Pom.xml<--Remote Repo(Maven))
 
 
-SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION
+"SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION"
 ====================================================
 ASPECT:-
 --------
@@ -148,12 +148,38 @@ ASPECT:-
 5)Recommended Usage:-
     -->Recommended for optional dependencies.
     -->Recommended by Spring as the default approach for core requried dependencies.
-   
-      
 
-Spring MVC and Architecture:-
-==============================
--->
+-->Constructor Injection is the best option when compared to the setter Injection because in Constructor Injection there will be "Easy Data Loading" when compare to the Setter Injection.
+
+
+"Spring MVC and Architecture:-"
+===============================
+-->Spring MVC is a framework for building Web Applications in java.
+-->It is based on Model-View-Control Design Pattern.
+-->It leverages features of the core Spring frameworks such as Inversion of Control and Dependency Injection.
+
+
+"Architectural Diagram of Spring MVC:-"
+=======================================
+
+  Request --> Dispatcher Servlet(Front Controller) --> Handler Mapping--> Controller
+                       |<---------(ModelandView obj)--------------------------|
+                     |
+                     |
+               View Resolver  --> View 
+
+1)Browser Will send Request to the Server. Server will take that Request, Proccess it and send it to the Front Controller.
+
+2)Front Controller is nothing but a Dispatcher Servlet, its job is to send that Request to the Appropiate Servlet.
+
+3)Controller Code is the one Written by Developers, which contains the Bussiness Logic.
+
+4)Controller will Prepare the Model and send that Model to the FrontController for further Processing.
+
+5)Front Controller then sends that model Object to the View Template, Which Contains the HTMl Code and data which needs to be displayed on the Web page.
+
+
+
 
 
 
