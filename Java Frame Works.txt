@@ -49,6 +49,35 @@ SPRING CORE:-
 -->Dependency Injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods.
 -->Dependency Injection is a heart of Spring framework.
 
+
+"SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION"
+====================================================
+ASPECT:-
+--------
+1)Injection Method:-
+  -->Dependencies are Provided through "Setter Methods".
+  -->Dependencies are Provided through the class "Constructor".
+
+2)Type of Dependency:-
+    -->Used for "Optional" Dependencies.
+    -->Used for "Mandatory" Dependencies.
+
+3)Object State:-
+    -->Creates "mutable" objects; Dependencies can be changed Later.
+    -->Creates "Immutable" Objects; since all dependencies are fixed at creation.
+
+4)Circular Dependencies:-
+     -->"Easier" to handle Circular Dependencies.
+     -->"Difficult to handle Circular Dependencies.
+
+5)Recommended Usage:-
+    -->Recommended for optional dependencies.
+    -->Recommended by Spring as the default approach for core requried dependencies.
+
+-->Constructor Injection is the best option when compared to the setter Injection because in Constructor Injection there will be "Easy Data Loading" when compare to the Setter Injection.
+
+
+
 BEANS:-
 -------
 -->Beans are nothing but Objects Managed by the Spring Container.
@@ -125,33 +154,6 @@ ApplicationContext:-
   eg:-  (local Repo<----Pom.xml<--Remote Repo(Maven))
 
 
-"SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION"
-====================================================
-ASPECT:-
---------
-1)Injection Method:-
-  -->Dependencies are Provided through "Setter Methods".
-  -->Dependencies are Provided through the class "Constructor".
-
-2)Type of Dependency:-
-    -->Used for "Optional" Dependencies.
-    -->Used for "Mandatory" Dependencies.
-
-3)Object State:-
-    -->Creates "mutable" objects; Dependencies can be changed Later.
-    -->Creates "Immutable" Objects; since all dependencies are fixed at creation.
-
-4)Circular Dependencies:-
-     -->"Easier" to handle Circular Dependencies.
-     -->"Difficult to handle Circular Dependencies.
-
-5)Recommended Usage:-
-    -->Recommended for optional dependencies.
-    -->Recommended by Spring as the default approach for core requried dependencies.
-
--->Constructor Injection is the best option when compared to the setter Injection because in Constructor Injection there will be "Easy Data Loading" when compare to the Setter Injection.
-
-
 "Spring MVC and Architecture:-"
 ===============================
 -->Spring MVC is a framework for building Web Applications in java.
@@ -177,6 +179,7 @@ ASPECT:-
 4)Controller will Prepare the Model and send that Model to the FrontController for further Processing.
 
 5)Front Controller then sends that model Object to the View Template, Which Contains the HTMl Code and data which needs to be displayed on the Web page.
+
 
 
 
