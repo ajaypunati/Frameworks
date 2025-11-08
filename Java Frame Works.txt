@@ -190,14 +190,21 @@ SPRING ANNOTATIONS:-
   1)"@Configuration" :-
          -->It is used to Indicate that a class declares a one or more "@Bean" annotations.
          -->These classes are processed by the Spring Container to generate bean definition and service requests for those beans at run time.
+         -->It is suitable at class level.
 
  2)"@Bean" :-
       -->Indicate that a method produces a bean to be managed by the spring container.
       -->This is one of the most commonly used Spring annotation.
       -->"@Bean" annotation can also be used with parameters like name, initMethod(postConstruct), destroyMethod(preDestroy).
+      -->It is suitable at Method level.
 
 3)"@ComponentScan" :-
-       -->
+       -->It used to load all the classes inside a base package that we are providing.
+
+
+
+
+
 
 
 
