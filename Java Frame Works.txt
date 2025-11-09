@@ -199,7 +199,15 @@ SPRING ANNOTATIONS:-
       -->It is suitable at Method level.
 
 3)"@ComponentScan" :-
-       -->It used to load all the classes inside a base package that we are providing.
+       -->It used to scan all the classes inside a base package and it's sub packages.
+
+4)"@Component" :-
+      -->Indicates that a annotated class is a "component".
+
+5)
+
+
+
 
 
 
