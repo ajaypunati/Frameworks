@@ -204,7 +204,12 @@ SPRING ANNOTATIONS:-
 4)"@Component" :-
       -->Indicates that a annotated class is a "component".
 
-5)
+5)"postConstruct" :- 
+      -->Runs a method after  bean intialization.
+
+6)"preDestroy" :- 
+       -->Runs a method before  bean destruction.
+
 
 
 
