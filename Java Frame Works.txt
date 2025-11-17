@@ -182,8 +182,8 @@ ApplicationContext:-
 
 
 
-SPRING ANNOTATIONS:-
-====================
+SPRING AND SPRING BOOT ANNOTATIONS:-
+====================================
 -->Spring annotations allows us to configure dependencies and implements dependency injection through java programs.
 -->Spring Annotations List:-
   --------------------------
@@ -204,11 +204,23 @@ SPRING ANNOTATIONS:-
 4)"@Component" :-
       -->Indicates that a annotated class is a "component".
 
-5)"postConstruct" :- 
+5)"@postConstruct" :- 
       -->Runs a method after  bean intialization.
 
-6)"preDestroy" :- 
+6)"@preDestroy" :- 
        -->Runs a method before  bean destruction.
+
+7)"@Controller: :-
+       -->This annotation marks a class as a Spring MVC Controller.
+
+8)"@EnableAutoConfiguration" :-
+       -->This Annotation Tells Spring Boot to Automatically configure the Application based on the dependecies in the classpath.
+
+9)"@SpringBootApplication" :-
+      -->It Combines "@EnableAutoConfiguration", "@Configuration", "@ComponentScan". It is the main entry point of a Spring Boot Application.
+
+10)
+
 
 
 
