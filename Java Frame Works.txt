@@ -202,7 +202,7 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
        -->It used to scan all the classes inside a base package and it's sub packages.
 
 4)"@Component" :-
-      -->Indicates that a annotated class is a "component".
+      -->This annotation Marks a class as a Spring-Managed bean.
 
 5)"@postConstruct" :- 
       -->Runs a method after  bean intialization.
@@ -220,6 +220,7 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
       -->It Combines "@EnableAutoConfiguration", "@Configuration", "@ComponentScan". It is the main entry point of a Spring Boot Application.
 
 10)
+
 
 
 
