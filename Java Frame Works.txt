@@ -219,7 +219,19 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
 9)"@SpringBootApplication" :-
       -->It Combines "@EnableAutoConfiguration", "@Configuration", "@ComponentScan". It is the main entry point of a Spring Boot Application.
 
-10)
+10)"@AutoWired" :- 
+       -->Injects Dependencies Automatically by Name or Type.
+
+11)"@Qualifier" :-
+       -->Resolves Ambiguity when Multiple beans of the same type are exist with the "@AutoWired".
+
+12)"@Primary" :-
+       -->This Annotation Marks a bean as a Preffered when multiple beans of the same type are Available.
+
+
+SPRING BOOT INTRODUCTION:-
+==========================
+
 
 
 
