@@ -231,6 +231,14 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
 
 SPRING BOOT INTRODUCTION:-
 ==========================
+-->"Spring Boot = Advanced Spring or Extension of Spring".
+-->Spring Boot is an open source java based framework.
+-->By using this we can develop micro service Applications.
+-->The Services that are developed by using spring boot are Micro services. 
+-->Micro Service is an Architecture only, it is not a technology.
+-->"Micro Service is an Architecture that allows the developers to develop and deploy services independently".
+
+
 
 
 
