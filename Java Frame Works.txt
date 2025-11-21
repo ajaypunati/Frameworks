@@ -38,8 +38,7 @@ SPRING CORE:-
 
 "SPRING INVERSION OF CONTROL(IOC):-"
 ----------------------------------
--->A Design Principle where the control of object creation and dependencies is transferred to a container(i.e jar file)rather than being managed directly by the Application
-  code.
+-->A Design Principle where the control of object creation and dependencies is transferred to a container(i.e jar file)rather than being managed directly by the Application code.
 
 "SPRING DEPENDENCY INJECTION(DI):-"
 -----------------------------------
@@ -237,6 +236,9 @@ SPRING BOOT INTRODUCTION:-
 -->The Services that are developed by using spring boot are Micro services. 
 -->Micro Service is an Architecture only, it is not a technology.
 -->"Micro Service is an Architecture that allows the developers to develop and deploy services independently".
+
+
+
 
 
 
