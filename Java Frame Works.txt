@@ -248,12 +248,13 @@ ADVANTAGES OF MICRO SERVICES:-
 
 WHY SPRING BOOT..?
 =====================
--->It Provides a flexible way to configure java beans.
+-->It Provides a flexible way to configure java beans.(XML Configuration and Database Transactions)
 -->It Povides a powerful batch processing and manages REST endpoints.
 -->In SB, everything is Auto configured, No Manual Configuration is needed.
 -->It offers an annotation based Spring Application.
 -->It includes Embedded server.
 -->It includes an Embedded Servlet Container.
+
 
 
 
