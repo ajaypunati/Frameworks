@@ -228,7 +228,10 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
        -->This Annotation Marks a bean as a Preffered when multiple beans of the same type are Available.
 
 13)"@Scope" :- 
-       -->This Annotation define Bean scope.
+       -->This Annotation define a Bean scope.
+
+14)"@Value" :-
+       -->Injects values from Properties, environment variables or expressions.
 
 
 SPRING BOOT INTRODUCTION:-
@@ -257,6 +260,7 @@ WHY SPRING BOOT..?
 -->It offers an annotation based Spring Application.
 -->It includes Embedded server.
 -->It includes an Embedded Servlet Container.
+
 
 
 
