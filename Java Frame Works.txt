@@ -262,6 +262,23 @@ WHY SPRING BOOT..?
 -->It includes an Embedded Servlet Container.
 
 
+WHAT IS MEANT BY REST API AND SOAP API :-
+========================================
+-->REST and SOAP both are two different approaches "for building web API's for data exchange between the Applications."
+
+REST API:-
+==========
+-->REST Stands for "Representational State Transfer".
+-->Representational State Transfer is a set of Architectural principles that promotes a "more flexible and lightweight approach for exchanging data between
+   the applications".
+
+SOAP API:-
+==========
+-->SOAP stands for "Simple Object Access Protocol".
+-->Simple Object Access Protocol is a Protocol that provies a "standarized way to communicate data using XML messages".
+
+
+
 
 
 
