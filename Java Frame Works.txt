@@ -298,7 +298,9 @@ Annotations Continutation....
         -->Maps HTTP Requests to methods or classes.
 
 20)"@GetMapping" :-
-       -->It is a Shortcut for "RequestMapping" with HTTP GET.
+       -->It is a Shortcut for "@RequestMapping" with HTTP GET.
+
+
 
 
 
