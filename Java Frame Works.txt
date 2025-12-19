@@ -218,26 +218,24 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
 9)"@SpringBootApplication" :-
       -->It Combines "@EnableAutoConfiguration", "@Configuration", "@ComponentScan". It is the main entry point of a Spring Boot Application.
 
-10)"@SpringBootConfiguration" :-
-       -->
-
-11)"@AutoWired" :- 
+10)"@AutoWired" :- 
        -->Injects Dependencies Automatically by Name or Type.
 
-12)"@Qualifier" :-
+11)"@Qualifier" :-
        -->Resolves Ambiguity when Multiple beans of the same type are exist with the "@AutoWired".
 
-13)"@Primary" :-
+12)"@Primary" :-
        -->This Annotation Marks a bean as a Preffered when multiple beans of the same type are Available.
 
-14)"@Scope" :- 
+13)"@Scope" :- 
        -->This Annotation define a Bean scope.
 
-15)"@Value" :-
+14)"@Value" :-
        -->Injects values from Properties, environment variables or expressions.
 
-16) "@Setter" and "@Getter" :-
-        -->
+15) "@Setter" and "@Getter" :-
+        -->These Annotations Automatically define setters and getters by using lombok.
+
 
 
 SPRING BOOT INTRODUCTION:-
@@ -282,6 +280,7 @@ SOAP API:-
 ==========
 -->SOAP stands for "Simple Object Access Protocol".
 -->Simple Object Access Protocol is a Protocol that provies a "standarized way to communicate data using XML messages".
+
 
 
 
