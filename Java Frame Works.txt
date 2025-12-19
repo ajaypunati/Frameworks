@@ -282,6 +282,14 @@ SOAP API:-
 -->Simple Object Access Protocol is a Protocol that provies a "standarized way to communicate data using XML messages".
 
 
+Annotations Continutation....
+==============================
+
+16)"@RestCntroller" :- 
+       -->It is a convienience annotation that itself annotated with "@Controller" and "@ResponseBody".
+
+17)
+
 
 
 
