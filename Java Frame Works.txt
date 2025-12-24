@@ -49,6 +49,40 @@ SPRING CORE:-
 -->Dependency Injection is a heart of Spring framework.
 
 
+Example Program:-
+-----------------
+//Tight Coupling
+class Engine{
+   void start(){
+       System.out.println("Engine Started");
+   }
+}
+class Car{
+   Engine e = new Engine();
+   void Drive(){
+      e.start();
+      System.out.println("Drive Safely");
+   }
+}
+-------------------------------------------
+//Loose Coupling
+@Component
+class Engine{
+   void start(){
+       System.out.println("Engine Starts");
+   }
+}
+class Car{
+   @Autowired
+   Engine e;
+   void Drive(){
+      e.start();
+      System.out.println("Drive Safely");
+   }
+}
+
+
+
 "SPRING SETTER INJECTION  VS  CONSTRUCTOR INJECTION"
 ====================================================
 ASPECT:-
@@ -308,6 +342,7 @@ Annotations Continutation....
        -->It is a Shortcut for "@RequestMapping" with HTTP GET.
 
 22)
+
 
 
 
