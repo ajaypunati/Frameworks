@@ -217,6 +217,10 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
 
 9)"@SpringBootApplication" :-
       -->It Combines "@EnableAutoConfiguration", "@Configuration", "@ComponentScan". It is the main entry point of a Spring Boot Application.
+      -->It tells Spring boot to :
+             -->Scan for Components
+             -->Configure beans Automatically 
+             -->use java based configuration
 
 10)"@AutoWired" :- 
        -->Injects Dependencies Automatically by Name or Type.
@@ -304,6 +308,7 @@ Annotations Continutation....
        -->It is a Shortcut for "@RequestMapping" with HTTP GET.
 
 22)
+
 
 
 
