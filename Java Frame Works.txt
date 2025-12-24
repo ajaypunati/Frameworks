@@ -288,17 +288,23 @@ Annotations Continutation....
 16)"@RestCntroller" :- 
        -->It is a convienience annotation that itself annotated with "@Controller" and "@ResponseBody".
 
-17)"@SpringBootConfiguration" :-
+17)"@ResponseBody" :-
+       -->Serializes Method return value to HTTP Response Body(eg.. JSON)
+
+18)"@SpringBootConfiguration" :-
        -->This Annotation Marks a class as configuration class.
 
-18)"@ModelAttribute" :-
+19)"@ModelAttribute" :-
         -->This Annotation Automatically configure model data to the appropriate view pages.
 
-19)"@RequestMapping" :-
+20)"@RequestMapping" :-
         -->Maps HTTP Requests to methods or classes.
 
-20)"@GetMapping" :-
+21)"@GetMapping" :-
        -->It is a Shortcut for "@RequestMapping" with HTTP GET.
+
+22)
+
 
 
 
