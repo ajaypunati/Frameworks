@@ -336,12 +336,28 @@ Annotations Continutation....
         -->This Annotation Automatically configure model data to the appropriate view pages.
 
 20)"@RequestMapping" :-
-        -->Maps HTTP Requests to methods or classes.
+        -->This Annotation Maps HTTP Requests to methods or classes.
 
 21)"@GetMapping" :-
        -->It is a Shortcut for "@RequestMapping" with HTTP GET.
 
-22)
+22)"@PostMapping" :-
+        -->It is a Shortcut for "@RequestMapping" with HTTP Post.
+
+23)"@DeleteMapping" :-
+        -->It is a Shortcut for "@RequestMapping" with HTTP Delete.
+
+24)"@PutMapping" :-
+        -->It is a Shortcut for "@RequestMapping" with HTTP PUT.
+
+25)"@RequestBody" :-
+        -->This Annotation Maps the HTTP Request body to a java Object.
+
+26)"@PathVariable" :-
+        -->Binds URL Template Variables to the Method Parameters.
+
+
+
 
 
 
