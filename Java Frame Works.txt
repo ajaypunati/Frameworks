@@ -354,7 +354,11 @@ Annotations Continutation....
         -->This Annotation Maps the HTTP Request body to a java Object.
 
 26)"@PathVariable" :-
-        -->Binds URL Template Variables to the Method Parameters.
+        -->THis Annotation Binds URL Template Variables to the Method Parameters.
+
+27)"@Requestparam" :-
+        -->THis Annotation Binds Query Paramters to the Method Parameters.
+
 
 
 
