@@ -367,6 +367,29 @@ WHAT IS JPA..?
 -->Java Persistance API helps you to connect with the database in a easiest way and which will remove the Boilerplate code from JDBC.
 -->With JPA, we can use pre-defined methods and completing the translation with the DAO.
 
+SPECIFICTION:
+---------------
+-->JPA is a java specification that defines standard API "for managing relational data in java applications."
+
+
+WHAT IS HIBERNATE..?
+====================
+-->We will use it for Mapping.
+
+IMPLEMENTATION:
+---------------
+-->Hibernate is a popular and widely used open-source ORM framework that serves as a concrete implementation of the JPA Specification.
+
+ORM TOOL..?
+===========
+-->Hibernate is a ORM Tool that,
+       -->maps java obejcts to the database table.
+       -->handling the complexities of SQL generation,
+       -->data types conversions and,
+       -->Transaction Management behind the scenes.
+
+
+
 
 
 
