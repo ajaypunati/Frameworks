@@ -361,6 +361,13 @@ Annotations Continutation....
 
 
 
+WHAT IS JPA..?
+==============
+-->JPA stands for Java Persistance API.
+-->Java Persistance API helps you to connect with the database in a easiest way and which will remove the Boilerplate code from JDBC.
+-->With JPA, we can use pre-defined methods and completing the translation with the DAO.
+
+
 
 
 
