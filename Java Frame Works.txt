@@ -396,6 +396,11 @@ JPA Query Methods:-
 3)findById(id);
 4)deleteById(id);
 5)delete();
+6)count();
+7)exitsById(id);
+
+
+
 
 
 
