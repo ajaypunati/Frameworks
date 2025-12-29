@@ -47,7 +47,7 @@ SPRING CORE:-
 -->Dependency Injection helps in gluing the classes together and at the same time keeping them Independent.
 -->Dependency Injection can happen in the way of passing parameters to the constructor or by post-construction using setter methods.
 -->Dependency Injection is a heart of Spring framework.
-
+-->Dependency means pre-defined libraries.
 
 Example Program:-
 -----------------
@@ -398,6 +398,7 @@ JPA Query Methods:-
 5)delete();
 6)count();
 7)exitsById(id);
+
 
 
 
