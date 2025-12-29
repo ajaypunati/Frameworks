@@ -389,6 +389,15 @@ ORM TOOL..?
        -->Transaction Management behind the scenes.
 
 
+JPA Query Methods:-
+==================
+1)save(entity);
+2)findAll();
+3)findById(id);
+4)deleteById(id);
+5)delete();
+
+
 
 
 
