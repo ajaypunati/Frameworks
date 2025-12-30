@@ -359,6 +359,18 @@ Annotations Continutation....
 27)"@Requestparam" :-
         -->THis Annotation Binds Query Paramters to the Method Parameters.
 
+28)"@Entity" :-
+      -->This annotation marks a class as JPA entity(database table).
+
+29)"@Table" :-
+      -->This annotation specifies the table name for an entity.
+
+30)"@Id" :-
+      -->This annotation specifies the primary key for an entity.
+
+31)"@GeneratedValue":-
+      -->This annotation specfies how the primary key should be generated.
+
 
 
 WHAT IS JPA..?
@@ -398,6 +410,7 @@ JPA Query Methods:-
 5)delete();
 6)count();
 7)exitsById(id);
+
 
 
 
