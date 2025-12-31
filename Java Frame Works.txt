@@ -260,7 +260,7 @@ SPRING AND SPRING BOOT ANNOTATIONS:-
        -->Injects Dependencies Automatically by Name or Type.
 
 11)"@Qualifier" :-
-       -->Resolves Ambiguity when Multiple beans of the same type are exist with the "@AutoWired".
+       -->Resolves Ambiguity when Multiple beans of the same type are exist with the "Component".
 
 12)"@Primary" :-
        -->This Annotation Marks a bean as a Preffered when multiple beans of the same type are Available.
@@ -410,6 +410,7 @@ JPA Query Methods:-
 5)delete();
 6)count();
 7)exitsById(id);
+
 
 
 
