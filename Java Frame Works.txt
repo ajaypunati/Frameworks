@@ -371,6 +371,8 @@ Annotations Continutation....
 31)"@GeneratedValue":-
       -->This annotation specfies how the primary key should be generated.
 
+32)"@Repository" :-
+      -->This annotation indicates that a class is a Data Repository.
 
 
 WHAT IS JPA..?
@@ -410,6 +412,16 @@ JPA Query Methods:-
 5)delete();
 6)count();
 7)exitsById(id);
+
+SPRING BOOT REST API WORKING FLOW:-
+===================================
+-->Model Class(Entity, Table, Id,GeneratedValue, @Data)
+-->Controller(Mapping)
+-->JpaRespository(DAO and Predefined Methods)
+-->Service Layer(Bussiness Logic)
+
+
+
 
 
 
