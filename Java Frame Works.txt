@@ -413,6 +413,7 @@ JPA Query Methods:-
 6)count();
 7)exitsById(id);
 
+
 SPRING BOOT REST API WORKING FLOW:-
 ===================================
 -->Model Class(Entity, Table, Id,GeneratedValue, @Data)
@@ -420,6 +421,14 @@ SPRING BOOT REST API WORKING FLOW:-
 -->JpaRespository(DAO and Predefined Methods)
 -->Service Layer(Bussiness Logic)
 
+Database Configuration in application.properties
+------------------------------------------------
+-->spring.datasource.url=jdbc:mysql://localhost:3306/batch51
+-->spring.datasource.username=root
+-->spring.datasource.password=root
+-->spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+-->spring.jpa.show-sql=true
+-->spring.jpa.Hibernate.ddl-auto=update
 
 
 
@@ -432,6 +441,10 @@ SPRING BOOT REST API WORKING FLOW:-
 
 
 
+
+
+
+3
 
 
 
