@@ -421,14 +421,24 @@ SPRING BOOT REST API WORKING FLOW:-
 -->JpaRespository(DAO and Predefined Methods)
 -->Service Layer(Bussiness Logic)
 
-Database Configuration in application.properties
-------------------------------------------------
+Database Configuration  and spring boot actuators in application.properties
+----------------------------------------------------------------------------
 -->spring.datasource.url=jdbc:mysql://localhost:3306/batch51
 -->spring.datasource.username=root
 -->spring.datasource.password=root
 -->spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 -->spring.jpa.show-sql=true
 -->spring.jpa.Hibernate.ddl-auto=update
+
+-->Spring boot actuators will describe the  env, health status, internal beans, autoconfigurations of an application.
+-->management.endpoints.web.explosure.include=*
+-->management.info.env.enabled=true
+-->info.app.name=spring boot crud operations
+-->info.app.description=A funny and Easy Web App
+-->info.app.version=1.0.0
+
+
+
 
 
 
