@@ -8,7 +8,7 @@ SPRING INTRODUCTION:-
 =======================
 -->Spring is an open source java platform that provides comprehensive infrastructure support for developing robust java applications very easily.
 -->Spring  was intially written by "Rod Jhonson" in the year june 2003.
--->Current Spring version is 6.2.7.
+-->Current Spring version is 7.0.2.
 ->Spring offers features like,
    -->dependency Injection,
    -->Aspect Oriented Programming
@@ -436,6 +436,7 @@ Database Configuration  and spring boot actuators in application.properties
 -->info.app.name=spring boot crud operations
 -->info.app.description=A funny and Easy Web App
 -->info.app.version=1.0.0
+
 
 
 
